@@ -2,14 +2,22 @@
 Contributors: Toro_Unit
 Tags: post type,taxonomy,cms,posts per page
 Requires at least: 3.5
-Tested up to: 3.7
-Stable tag: 0.7.2
+Tested up to: 4.2
+Stable tag: 0.8.0
 
 Posts per page for custom post types and taxonomies.
 
 == Description ==
 
-Set posts per page for each post type/taxonomy/category/tag archives.
+Simple Customization posts per page for your sites.
+
+= Available Setting =
+
+* Custom Post Type
+* Custom Taxonomy
+* Category
+* Tag
+
 
 This plugin use `pre_get_posts`.
 
@@ -25,10 +33,10 @@ Donation: Please send Amazon Gift to donate[at]torounit.com.
 
 * Download the pppp.zip file to your computer.
 * Unzip the file.
-* Upload the `custom-post-type-permalinks` directory to your `/wp-content/plugins/` directory.
+* Upload the `pppp` directory to your `/wp-content/plugins/` directory.
 * Activate the plugin through the 'Plugins' menu in WordPress.
 
-That's it. You can access the permalinks setting by going to *Settings -> Reading*.
+That's it. You can access the posts per page setting by going to *Settings -> Reading*.
 
 
 == Screenshots ==
@@ -38,6 +46,9 @@ That's it. You can access the permalinks setting by going to *Settings -> Readin
 
 
 == Changelog ==
+
+= 0.8.0 =
+* Unit Test.
 
 = 0.7.2 =
 * Fix Not Working Category and Tag.
